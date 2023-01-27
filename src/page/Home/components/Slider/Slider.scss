@@ -1,0 +1,115 @@
+.slide-item1{
+    -ms-transform: scale(1.8);
+    transform: scale(1.8);
+    margin-top: 80px;
+    // max-height: 100px;
+    margin: 15px auto 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    width: 90px;
+    align-items: center;
+    background: #fefdff;
+    border-radius: 20px;
+    // margin-left: 20px;
+    filter: drop-shadow(10.2168px 10.2168px 20.4337px rgba(0,0,0,.1));
+    height: 100px;
+    justify-content: center;
+    // margin: 15px auto 25px;
+   
+}
+.center .slick-center h3  {
+    margin: 15px auto 20px;
+    width: 90px;
+    align-items: center;
+    background: #fefdff;
+    border-radius: 10px;
+    margin-top:50px !important;
+    filter: drop-shadow(10.2168px 10.2168px 20.4337px rgba(0,0,0,.1));
+    height: 80px;
+    // justify-content: center;
+    // margin: 15px auto 25px;
+
+
+
+    
+}
+
+.slide-item2{
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    margin-top: 30px;
+    max-height: 156px;
+    margin: 15px auto 20px;
+    width: 110px;
+    align-items: center;
+    background: #fefdff;
+    border-radius: 20px;
+    margin-left: 10px;
+    filter: drop-shadow(10.2168px 10.2168px 20.4337px rgba(0,0,0,.1));
+    height: 80px;
+    justify-content: center;
+    margin: 15px auto 25px;
+}
+.slide-item3{
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+    max-height: 156px;
+    margin: 15px auto 20px;
+    width: 110px;
+    align-items: center;
+    background: #fefdff;
+    border-radius: 20px;
+    margin-left: 10px;
+    filter: drop-shadow(10.2168px 10.2168px 20.4337px rgba(0,0,0,.1));
+    height: 90px;
+    justify-content: center;
+    margin: 15px auto 25px;
+   position: relative;
+   bottom: 50px;
+}
+.slick-active {
+
+    height: 268px !important;
+
+}
+
+.container {}
+
+// .slick-track {
+//     div:nth-child(5) {
+//         height: 100px!important;
+//         width: 100px!important;
+//     }
+// }
+
+
+.slide-arrow{
+    position: relative;
+    top: 190px;
+    width: 80px;
+    left: 36.5%;
+    transform: rotate(360deg);
+    img{
+        position: absolute;
+        width: 15px;
+        height: 20px;
+        z-index: 9999;
+    }
+    
+}
+
+.slide-arrowRight{
+    position: relative;
+    top: 215px;
+    width: 80px;
+    left: 57%;
+    transform: rotate(180deg);
+    img{
+        position: absolute;
+        width: 15px;
+        height: 20px;
+        z-index: 9999;
+    }
+}
